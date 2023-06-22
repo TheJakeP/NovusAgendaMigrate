@@ -1,4 +1,4 @@
-# Novus Migration Tool
+# NovusAGENDA (Novus Agenda) Migration Tool
 
 ## Purpose
 This tool is designed for a migration of NovusDocs minutes and agendas by downloading published PDF's. Before using this tool, ensure all minutes are published in the tool and available.
@@ -11,7 +11,7 @@ For example: https://<em><b>sunnysideschools</em></b>.novusagenda.com/AgendaPubl
 
 ## How this script works
 1. This script crawls the novus link and captures all the links to download PDF's of Agendas and Minutes.
-2. 
+2. We then (manually) upload the downloaded PDF files to Google Drive and display them in a Google Sheet. 
 
 # How to Use
 1. In the file main.py, on line 11, update the </em></b>entity_subdomain</em></b> variable to your organization's novus sub-domain. In the example above, this is <em><b>sunnysideschools</em></b> , our subdomain.
